@@ -4,10 +4,15 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 
 function App() {
 	return (
-		<Container className="text-center my-5">
+	<>
+	<Header />
+		<main>
+			<Container className="text-center my-5">
 			<Row>
 				<Col md={6} className="bg-primary text-white p-4">
 					<h2>Column 1</h2>
@@ -21,6 +26,10 @@ function App() {
 				</Col>
 			</Row>
 		</Container>
+		</main>
+		<Footer />
+	</>
+		
 	);
 }
 

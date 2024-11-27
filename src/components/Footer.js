@@ -1,16 +1,9 @@
-import { Container, Row, Col } from 'react-bootstrap';
-function Footer(){
-    return(
-        <Footer>
-             <Container>
-                <Row>
-                    <Col>
-                    Footer
-                    </Col>
-                </Row>
-            </Container>
-        </Footer>
-    )
-}
+function Footer() {
+    return (
+      <footer>
+        <p>&copy; 2023 My Website</p>
+      </footer>
+    );
+  }
 
 export default Footer;

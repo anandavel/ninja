@@ -7,16 +7,12 @@ import Blog from "./pages/Blog";
 
 export default function App() {
   return (
-    <BrowserRouter>
+  <BrowserRouter>
       <Routes>
           <Route path="blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+  const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
-
-              
-

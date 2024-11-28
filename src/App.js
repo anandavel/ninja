@@ -10,7 +10,6 @@ export default function App() {
     <BrowserRouter>
       <Routes>
           <Route path="blog" element={<Blog />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );
